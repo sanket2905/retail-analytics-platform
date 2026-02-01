@@ -1,0 +1,15 @@
+# Snowflake
+*.p8
+*.pem
+*.key
+
+.terraform/
+
+.env
+__pycache__/
+node_modules/
+Downloads/
+*.zip
+*.tar
+*.log
+data/
