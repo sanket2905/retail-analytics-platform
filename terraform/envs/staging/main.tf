@@ -1,6 +1,5 @@
 module "snowflake_core" {
   source = "../../modules/snowflake-core"
-
   account           = var.account
   user              = var.user
   role              = var.role
@@ -10,3 +9,5 @@ module "snowflake_core" {
   database_name     = "RETAIL_ANALYTICS_STG"
   warehouse_name    = "RETAIL_WH_STG"
 }
+
+

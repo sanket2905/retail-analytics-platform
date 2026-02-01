@@ -1,6 +1,6 @@
 provider "snowflake" {
   account  = var.account
-  user     = var.user
+  username     = var.user
   role     = var.role
   region   = var.region
   private_key = file(var.private_key_path)
