@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Snowflake-Labs/setup-terraform@v3
+      - uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
         run: terraform init
