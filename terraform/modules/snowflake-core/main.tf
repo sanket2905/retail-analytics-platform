@@ -2,8 +2,8 @@ provider "snowflake" {
   account  = var.account
   username     = var.user
   role     = var.role
-  region   = var.region
-  private_key = file(var.private_key_path)
+  private_key = var.private_key_path
+  authenticator = "SNOWFLAKE_JWT"
 }
 
 resource "snowflake_database" "analytics" {
